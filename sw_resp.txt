@@ -1,0 +1,49 @@
+Preguntas:
+    1.- Cada fase del ciclo debe ser completado para poder avanzar al siguiente, el primer ciclo es la
+        toma de requerimientos con el cliente, una vez terminado se procede al diseño del sistema, una vez
+        que el cliente apruebe el diseño, se debe proceder a la implementación del sistema o software, para
+        posteriormente realizar integraciones del equipo de trabajo y poder testear, una ves testeado se debe
+        proceder a desplegar o poner en producción el sistema para el cliente final, una vez que el cliente
+        utilice el sistema, se debe dar mantenimiento a posibles bugs.
+        Se puede utilizar para proyectos pequeños ya que no se necesitan tantos cambios que atrasen el desarrollo
+        del mismo.
+    2.- Las pruebas unitarias solo se aplican al código en específico para poder detectar errores en funciones,
+        clases o archivos.
+        Las pruebas de integración sirven para poder unir todo el código de un equipo de trabajo y que este no
+        falle.
+        En las pruebas de aceptación interactúa el cliente con el sistema, para poder determinar si el resultado
+        es el que esperaba.
+    3.- La metodología SCRUM involucra al equipo de desarrollo, al lider de proyectos y al cliente, para poder
+        determinar los alcances del proyecto e ir ponderizando tareas por prioridades, sirve para tener un mejor
+        control del avance del proyecto.
+    4.- El paradigma TDD primero se escriben las pruebas unitarias para poder verificar si no hay fallas, luego
+        se procede a escribir el código sin tantos errores que pase las pruebas unitarias.
+        Se puede utilizar en proyectos a los cuales se debe entregar un prototipo, ya que es mas rápido desarrollarlo
+    5.- La práctica de desarrollo Integración continua se basa en un grupo de desarrolladores trabajando sobre un
+        mismo repositorio y se hacen actualizaciones diariamente, esto sirve para tener menos errores.
+        Beneficios: 
+            - Detección de errores facilmente
+            - Creación de un código fuente estable
+            - Fácil mantenimiento
+    6.- Las aplicaciones monolíticas son las que los servicios están distribuidos exactamente en distintos servidores,
+        además de esto es complejo para dar soporte, ya que los cambios se tienen que desplegar es todos los servidores
+        para poder tener la actualización, las aplicaciones por microservicios es más fácil hacer cambio, ya que
+        cada servicio está por separado y no afecta a toda la aplicación.
+    7.- 
+        - Acción centrada en el cliente
+        - Responsabilidad de extremo a extremo
+        - Mejora continúa
+        - Automatiza todo
+        - Trabajar como un solo equipo
+        - Monitorear y testear todo
+    8.- Uno de los beneficios es el que las dos personas pueden resolver rápido los problemas, mientras uno codifica
+        el otro puede ir revisando el código para detectar errores.
+        Otro de los beneficios es el poder transmitir el conocimiento facilmente.
+        Ayuda a tener mejor comunicación e integración con el equipo de desarrollo.
+    9.- VueJs, es un framework muy interesante, la forma en la cual hace uso del DOM e interactúa con el servidor,
+        el uso de librerías es muy extenso.
+        Google Maps, el como almacena las "imágenes" de las calles y como obtiene las coordenadas, además del trazo
+        de rutas y como determinar cual es la mejor.
+        TensorFlow, he oido hablar del proyecto y se me hizo interesante, ya que sirve para trabajar con gráficos para
+        machine learning.
+    10.- Data Science and Big Data Analytics
