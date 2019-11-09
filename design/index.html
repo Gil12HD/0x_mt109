@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Deliveries</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row top shadow border_on_route">
+            <div class="col padding_all">
+                <div class="text_header">Ruta</div>
+                <div>RG010</div>
+            </div>
+            <div class="col padding_all">
+                <div class="text_header">Conductor</div>
+                <div>José Luis Cepeda</div>
+            </div>
+            <div class="col padding_all">
+                <div class="text_header">Creada</div>
+                <div>1 de Enero de 2019</div>
+            </div>
+            <div class="col padding_all">
+                <div class="text_header">Inició</div>
+                <div>13:00</div>
+            </div>
+            <div class="col padding_all">
+                <div class="text_header">Terminó</div>
+                <div>-</div>
+            </div>
+            <div class="col padding_all">
+                <div class="text_header">Entregas</div>
+                <div>3</div>
+            </div>
+            <div class="col padding_all">
+                <span class="rounded_on_route">En ruta</span>
+            </div>
+        </div>
+        <div class="row top shadow border_finish">
+            <div class="col padding_all">
+                <div class="text_header">Ruta</div>
+                <div>RG020</div>
+            </div>
+            <div class="col padding_all">
+                <div class="text_header">Conductor</div>
+                <div>Luis Ángel</div>
+            </div>
+            <div class="col padding_all">
+                <div class="text_header">Creada</div>
+                <div>1 de Enero de 2019</div>
+            </div>
+            <div class="col padding_all">
+                <div class="text_header">Inició</div>
+                <div>13:00</div>
+            </div>
+            <div class="col padding_all">
+                <div class="text_header">Terminó</div>
+                <div>13:36</div>
+            </div>
+            <div class="col padding_all">
+                <div class="text_header">Entregas</div>
+                <div>5</div>
+            </div>
+            <div class="col padding_all">
+                <span class="rounded_finish">Completada</span>
+            </div>
+        </div>
+        <div class="row top shadow border_finish">
+            <div class="col padding_all">
+                <div class="text_header">Ruta</div>
+                <div>RG030</div>
+            </div>
+            <div class="col padding_all">
+                <div class="text_header">Conductor</div>
+                <div>Juan Manuel</div>
+            </div>
+            <div class="col padding_all">
+                <div class="text_header">Creada</div>
+                <div>1 de Enero de 2019</div>
+            </div>
+            <div class="col padding_all">
+                <div class="text_header">Inició</div>
+                <div>13:00</div>
+            </div>
+            <div class="col padding_all">
+                <div class="text_header">Terminó</div>
+                <div>15:23</div>
+            </div>
+            <div class="col padding_all">
+                <div class="text_header">Entregas</div>
+                <div>4</div>
+            </div>
+            <div class="col padding_all">
+                <span class="rounded_finish">Completada</span>
+            </div>
+        </div>
+        <div class="row top shadow border_on_route">
+            <div class="col padding_all">
+                <div class="text_header">Ruta</div>
+                <div>RG010</div>
+            </div>
+            <div class="col padding_all">
+                <div class="text_header">Conductor</div>
+                <div>José Luis Cepeda</div>
+            </div>
+            <div class="col padding_all">
+                <div class="text_header">Creada</div>
+                <div>1 de Enero de 2019</div>
+            </div>
+            <div class="col padding_all">
+                <div class="text_header">Inició</div>
+                <div>13:00</div>
+            </div>
+            <div class="col padding_all">
+                <div class="text_header">Terminó</div>
+                <div>-</div>
+            </div>
+            <div class="col padding_all">
+                <div class="text_header">Entregas</div>
+                <div>3</div>
+            </div>
+            <div class="col padding_all">
+                <span class="rounded_on_route">En ruta</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<style>
+    .border_on_route{
+        border-left: 4px solid rgb(12, 128, 167);
+    }
+    .border_finish{
+        border-left: 4px solid rgb(71, 201, 71);
+    }
+    div{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+    }
+    .shadow{
+        box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
+    }
+    .row {
+        display: flex;
+    }
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .top{
+        margin-top: 20px;
+    }
+    .text_header{
+        font-size: 14px;
+        color: #707070;
+    }
+    .rounded_finish{
+        color: white;
+        background-color: rgb(71, 201, 71);
+        border-radius: 3rem;
+        padding: .4rem .4rem .4rem .4rem;
+    }
+    .rounded_on_route{
+        color: white;
+        background: rgb(12, 128, 167);
+        border-radius: 3rem;
+        padding: .4rem .4rem .4rem .4rem;
+    }
+    .padding_all{
+        padding-top: 20px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+    }
+    .container {
+        box-sizing: border-box;
+        padding: 1rem;
+        width: 100%;
+        
+        @media (max-width: 360px) {
+            width: 100%;
+        }
+    }
+</style>
